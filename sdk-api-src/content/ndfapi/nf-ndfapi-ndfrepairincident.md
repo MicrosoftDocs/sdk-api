@@ -70,7 +70,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-nda
 
 A structure (obtained from <a href="https://docs.microsoft.com/windows/desktop/api/ndfapi/nf-ndfapi-ndfdiagnoseincident">NdfDiagnoseIncident</a>) which indicates the particular repair to be performed.
 
-Memory allocated to these structures should later be freed.  For an example of how to do this, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=158047">Microsoft Windows Network Diagnostics Samples</a>.
+Memory allocated to these structures should later be freed.  For an example of how to do this, see the Microsoft Windows Network Diagnostics Samples.
 
 
 ### -param dwWait

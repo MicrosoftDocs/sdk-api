@@ -141,7 +141,7 @@ If this function is called with a transaction in progress, the transaction will 
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98331">Kernel-Mode FwpmEngineClose0</a>
+[Kernel-Mode FwpmEngineClose0](nf-fwpmu-fwpmengineclose0.md)
  
 
  

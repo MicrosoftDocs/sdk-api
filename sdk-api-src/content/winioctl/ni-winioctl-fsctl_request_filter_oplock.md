@@ -260,7 +260,7 @@ Yes
 
 
 
-<a href="ifsk.oplock_semantics">Oplock Semantics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
 
 
 

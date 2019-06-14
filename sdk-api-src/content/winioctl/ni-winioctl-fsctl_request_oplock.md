@@ -214,7 +214,7 @@ Using the <b>FSCTL_REQUEST_OPLOCK</b> control code with
      oplock break acknowledgment before writes can occur, where 
      <b>FSCTL_REQUEST_OPLOCK</b> does not because the oplock 
      break notification is advisory-only and writes are allowed to go ahead without acknowledgment. For more 
-     information, see <a href="ifsk.breaking_oplocks">Breaking Oplocks</a>.
+     information, see <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/breaking-oplocks">Breaking Oplocks</a>.
 
 An <b>FSCTL_REQUEST_OPLOCK</b> control code fails if the 
     file is opened in non-overlapped (synchronous) mode.
@@ -312,7 +312,7 @@ An RH oplock on a directory breaks to R when the directory itself is renamed or 
 
 
 
-<a href="ifsk.oplock_semantics">Oplock Semantics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
 
 
 

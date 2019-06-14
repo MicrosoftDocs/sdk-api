@@ -87,7 +87,7 @@ RSA/MD5 (<a href="http://go.microsoft.com/fwlink/p/?linkid=124777">RFC 2537</a>)
 </dl>
 </td>
 <td width="60%">
-Diffie-Hellman (<a href=" http://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2539</a>)
+Diffie-Hellman (<a href="http://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2539</a>)
 
 </td>
 </tr>

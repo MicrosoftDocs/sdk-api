@@ -104,4 +104,4 @@ If this method succeeds, it returns **S_OK**. Otherwise, it returns an **HRESULT
 
 <a href="/windows/desktop/direct3d12/dml-binding">Binding in DirectML</a>
 
-<a href="/windows/desktop/api/directml/nn-directml-idmlbindingtable">IDMLBindingTable</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/directml/nn-directml-idmlbindingtable">IDMLBindingTable</a>

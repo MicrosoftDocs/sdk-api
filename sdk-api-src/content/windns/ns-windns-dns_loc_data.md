@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_LOC_DATA</b> structure represents a DNS location (LOC) resource record (RR) as specified in <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+<b>DNS_LOC_DATA</b> structure represents a DNS location (LOC) resource record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ## -struct-fields
@@ -65,32 +65,32 @@ The version number of the representation. Must be zero.
 
 ### -field wSize
 
-The diameter of a sphere enclosing the described entity, defined as "SIZE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The diameter of a sphere enclosing the described entity, defined as "SIZE"         in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ### -field wHorPrec
 
-The horizontal data precision, defined as "HORIZ PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The horizontal data precision, defined as "HORIZ PRE"         in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ### -field wVerPrec
 
-The vertical data precision, defined as "VERT PRE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The vertical data precision, defined as "VERT PRE"         in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ### -field dwLatitude
 
-The latitude of the center of the sphere, defined as "LATITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The latitude of the center of the sphere, defined as "LATITUDE"         in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ### -field dwLongitude
 
-The longitude of the center of the sphere, defined as "LONGITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The longitude of the center of the sphere, defined as "LONGITUDE"         in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ### -field dwAltitude
 
-The altitude of the center of the sphere, defined as "ALTITUDE"         in section 2 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
+The altitude of the center of the sphere, defined as "ALTITUDE"         in section 2 of <a href="http://go.microsoft.com/fwlink/p/?linkid=106954">RFC 1876</a>.
 
 
 ## -remarks

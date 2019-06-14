@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 
-The <b>IMDSPEnumStorage</b> interface is used to enumerate the storage media on a device. For more information on the standard implementation of enumeration interfaces, see the Microsoft COM documentation, available at the <a href="http://go.microsoft.com/fwlink/p/?linkid=3282">Microsoft Web site</a>. The storage media on a device are organized in a hierarchical manner similar to disk drives on a computer.
+The <b>IMDSPEnumStorage</b> interface is used to enumerate the storage media on a device. For more information on the standard implementation of enumeration interfaces, see the Microsoft COM documentation, available at the Microsoft Web site. The storage media on a device are organized in a hierarchical manner similar to disk drives on a computer.
 
 When accessed from the <a href="https://docs.microsoft.com/windows/desktop/api/mswmdm/nf-mswmdm-imdspdevice-enumstorage">IMDSPDevice::EnumStorage</a> method, this interface enumerates the individual storage media on the device in the same way that you would see the individual disk drives on a computer.
 

@@ -162,7 +162,7 @@ Use <b>FSCTL_REQUEST_OPLOCK_LEVEL_2</b> to
 The file system requires no acknowledgment from the application that requested the level 2 opportunistic lock 
     when the lock is broken. After the lock is broken, the network redirector is notified not to regard as valid any 
     cached data from the file. For more information, see 
-    <a href="ifsk.breaking_oplocks">Breaking Oplocks</a>.
+    <a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/breaking-oplocks">Breaking Oplocks</a>.
 
 For more information, see 
     <a href="https://docs.microsoft.com/windows/desktop/FileIO/types-of-opportunistic-locks">Types of Opportunistic Locks</a>.
@@ -260,7 +260,7 @@ Yes
 
 
 
-<a href="ifsk.oplock_semantics">Oplock Semantics</a>
+<a href="https://docs.microsoft.com/windows-hardware/drivers/ifs/oplock-semantics">Oplock Semantics</a>
 
 
 

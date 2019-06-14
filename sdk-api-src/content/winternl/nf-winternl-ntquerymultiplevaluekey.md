@@ -66,7 +66,7 @@ A handle to the key for which to retrieve values. The handle must be opened with
 
 ### -param ValueEntries [in, out]
 
-A pointer to an array of <a href="http://go.microsoft.com/fwlink/p/?linkid=119324">KEY_VALUE_ENTRY</a> structures containing the names of values to retrieve.
+A pointer to an array of [**KEY_VALUE_ENTRY**] structures containing the names of values to retrieve.
 
 
 ### -param EntryCount [in]

@@ -378,7 +378,7 @@ Use the current behavior. Use this value for applications designed for Windows 
 
 
 
-See <a href="http://go.microsoft.com/fwlink/p/?linkid=200328">Notifications</a> in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
+See "Notifications" in the Windows User Experience Interaction Guidelines for more information on notification UI and content best practices.
 
 If you set the <b>NIF_INFO</b> flag in the <b>uFlags</b> member, the balloon-style notification is used. For more discussion of these notifications, see <a href="https://docs.microsoft.com/windows/desktop/Controls/using-tooltip-contro">Balloon tooltips</a>.
 

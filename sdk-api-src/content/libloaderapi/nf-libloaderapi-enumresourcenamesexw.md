@@ -197,7 +197,7 @@ The enumeration never includes duplicates: if resources for a particular languag
 
 #### Examples
 
-For an example, see <a href="using_resources.htm">Creating a Resource List</a>.
+For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Creating a Resource List</a>.
 
 <div class="code"></div>
 

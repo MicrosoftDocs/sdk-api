@@ -393,7 +393,7 @@ STK 9840.
 
 
 
-<a href="base.ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/ntmsapi/ns-ntmsapi-ntms_mediatypeinformation">NTMS_MEDIATYPEINFORMATION</a>
  
 
  

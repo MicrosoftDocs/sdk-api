@@ -178,11 +178,6 @@ This value can be used only if the process is in the context of a user who belon
 
 This value cannot be used with <b>MOVEFILE_COPY_ALLOWED</b>.
 
-<b>Windows Server 2003 and Windows XP:  </b>For information about special situations where this functionality can fail, and a suggested workaround 
-         solution, see 
-         <a href="Http://go.microsoft.com/fwlink/p/?linkid=117125">Files are not exchanged when Windows Server 2003 restarts if you use the MoveFileEx function to schedule a replacement for some files</a> 
-         in the Help and Support Knowledge Base.
-
 </td>
 </tr>
 <tr>
@@ -303,11 +298,6 @@ The system deletes a directory that is tagged for deletion with the
 
 The move and deletion operations are carried out at boot time in the same order that they are specified in the 
      calling application. To delete a directory that has files in it at boot time, first delete the files.
-
-<b>Windows Server 2003 and Windows XP:  </b>For information about special situations where <b>MOVEFILE_DELAY_UNTIL_REBOOT</b> 
-     functionality can fail, and a suggested workaround solution, see 
-     <a href="Http://go.microsoft.com/fwlink/p/?linkid=117125">Files are not exchanged when Windows Server 2003 restarts if you use the MoveFileEx function to schedule a replacement for some files</a> 
-     in the Help and Support Knowledge Base.
 
 If a file is moved across volumes, <b>MoveFileEx</b> does not 
      move the security descriptor with the file. The file is assigned the default security descriptor in the 

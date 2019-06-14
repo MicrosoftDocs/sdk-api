@@ -50,7 +50,7 @@ ms.custom: 19H1
 
 
 The 
-<b>DNS_KEY_DATA</b> structure represents a DNS key (KEY) resource record (RR) as specified in <a href=" http://go.microsoft.com/fwlink/p/?linkid=124772">RFC 3445</a>.
+<b>DNS_KEY_DATA</b> structure represents a DNS key (KEY) resource record (RR) as specified in <a href="http://go.microsoft.com/fwlink/p/?linkid=124772">RFC 3445</a>.
 
 
 ## -struct-fields
@@ -60,7 +60,7 @@ The
 
 ### -field wFlags
 
-A set of flags that specify whether this is a zone key as  described in section 4 of <a href=" http://go.microsoft.com/fwlink/p/?linkid=124772">RFC 3445</a>.
+A set of flags that specify whether this is a zone key as  described in section 4 of <a href="http://go.microsoft.com/fwlink/p/?linkid=124772">RFC 3445</a>.
 
 
 ### -field chProtocol
@@ -111,7 +111,7 @@ RSA/MD5 (<a href="http://go.microsoft.com/fwlink/p/?linkid=124777">RFC 2537</a>)
 </dl>
 </td>
 <td width="60%">
-Diffie-Hellman (<a href=" http://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2539</a>)
+Diffie-Hellman (<a href="http://go.microsoft.com/fwlink/p/?linkid=124778">RFC 2539</a>)
 
 </td>
 </tr>

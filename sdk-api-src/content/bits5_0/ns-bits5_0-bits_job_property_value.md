@@ -45,7 +45,7 @@ ms.custom: 19H1
 
 ## -description
 
-Provides the property value of the BITS job based on the value of the <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enumeration.
+Provides the property value of the BITS job based on the value of the <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enumeration.
 
 
 ## -struct-fields
@@ -96,7 +96,7 @@ This value is returned when using the enum property ID <b>BITS_JOB_PROPERTY_USE_
 
 
 
-<a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a>
 
 
 

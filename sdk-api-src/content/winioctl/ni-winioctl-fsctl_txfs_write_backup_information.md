@@ -160,7 +160,7 @@ For more information, see [NTSTATUS Values](https://docs.microsoft.com/en-us/win
 This control code can be used by backup functions and applications, such as 
     Win32 <a href="https://docs.microsoft.com/windows/desktop/api/winbase/nf-winbase-backupread">BackupRead</a>, and by Volume Snapshot Service (VSS) 
     writers that support secondary resource managers. For more information, see 
-    <a href="base.vss_portal">Volume Shadow Copy Service</a>.
+    <a href="https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service">Volume Shadow Copy Service</a>.
 
 <b>ReFS:  </b>This code is not supported.
 
@@ -184,7 +184,7 @@ This control code can be used by backup functions and applications, such as
 
 
 
-<a href="base.vss_portal">Volume Shadow Copy Service</a>
+<a href="https://docs.microsoft.com/windows-server/storage/file-server/volume-shadow-copy-service">Volume Shadow Copy Service</a>
  
 
  

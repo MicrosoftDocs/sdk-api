@@ -94,15 +94,4 @@ Maximum value for testing purposes.
 
 ## -see-also
 
-
-
-
-<a href="http://go.microsoft.com/fwlink/p/?linkid=94615">Main Mode Negotiation</a>
-
-
-
-<a href="https://docs.microsoft.com/windows/desktop/FWP/fwp-enums">Windows Filtering Platform API Enumerated Types</a>
- 
-
- 
-
+<a href="https://msdn.microsoft.com/39029412-18ce-426a-a79d-cf25ff0dfe0d">Windows Filtering Platform API Enumerated Types</a>

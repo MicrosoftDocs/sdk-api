@@ -73,11 +73,11 @@ This method does not return a value.
 
 
 
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass">BeginRenderPass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass">BeginRenderPass</a>
 
 
 
-<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist4">ID3D12GraphicsCommandList4</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist4">ID3D12GraphicsCommandList4</a>
 
 
 

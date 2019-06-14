@@ -90,7 +90,7 @@ The name of a resource of the type being enumerated. Alternately, rather than a 
 
 Type: <b>LPCTSTR</b>
 
-The type of resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is an integer value representing a predefined resource type. For standard resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. For more information, see the Remarks section below. 
+The type of resource for which the name is being enumerated. Alternately, rather than a pointer, this parameter can be <code>MAKEINTRESOURCE(ID)</code>, where ID is an integer value representing a predefined resource type. For standard resource types, see <a href="https://docs.microsoft.com/windows/desktop/menurc/resource-types">Resource Types</a>. For more information, see the Remarks section below. 
 
 
 ## -returns

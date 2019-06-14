@@ -111,7 +111,7 @@ The virtual disk is a parent of a differencing chain.
 ### -field DEPENDENT_DISK_FLAG_NO_HOST_DISK
 
  The virtual disk is not attached to the local host.
-    For example, it is attached to a guest <a href="http://go.microsoft.com/fwlink/p/?linkid=128149">virtual machine</a>.
+    For example, it is attached to a guest virtual machine.
 
 
 ### -field DEPENDENT_DISK_FLAG_PERMANENT_LIFETIME

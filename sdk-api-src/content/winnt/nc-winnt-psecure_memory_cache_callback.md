@@ -99,8 +99,8 @@ After the callback function is registered, it is called after any attempt to fre
     <b>FALSE</b>.
 
 The application secures and unsecures a memory range by sending requests to a device driver, which uses the 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=99148">MmSecureVirtualMemory</a> and 
-    <a href="http://go.microsoft.com/fwlink/p/?linkid=100741">MmUnsecureVirtualMemory</a> 
+    MmSecureVirtualMemory and 
+    MmUnsecureVirtualMemory 
     functions to actually secure and unsecure the range. Operations on other types of secured or locked memory do not 
     trigger this callback.
 

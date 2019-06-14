@@ -69,10 +69,10 @@ The <b>ID3D12Device5</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="https://msdn.microsoft.com/library/Mt847458(v=VS.85).aspx">CheckDriverMatchingIdentifier</a>
+CheckDriverMatchingIdentifier
 </td>
 <td align="left" width="63%">
-Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
+Reports the compatibility of serialized data, such as a serialized raytracing acceleration structure resulting from a call to <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">CopyRaytracingAccelerationStructure</a> with mode  <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/ne-d3d12-d3d12_raytracing_acceleration_structure_copy_mode">D3D12_RAYTRACING_ACCELERATION_STRUCTURE_COPY_MODE_SERIALIZE</a>, with the current device/driver.
 
 </td>
 </tr>
@@ -87,10 +87,10 @@ Creates an instance of the specified meta command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-createstateobject">CreateStateObject</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-createstateobject">CreateStateObject</a>
 </td>
 <td align="left" width="63%">
-Creates an <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12stateobject">ID3D12StateObject</a>.
+Creates an <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12stateobject">ID3D12StateObject</a>.
 
 </td>
 </tr>
@@ -114,7 +114,7 @@ Queries reflection metadata about available meta commands.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12device5-getraytracingaccelerationstructureprebuildinfo">GetRaytracingAccelerationStructurePrebuildInfo</a>
 </td>
 <td align="left" width="63%">
 Query the driver for resource requirements to build an acceleration structure. 

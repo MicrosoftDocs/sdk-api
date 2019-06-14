@@ -306,7 +306,7 @@ The directory can be traversed: that is, it can be part of the pathname of a fil
 ### -param ObjectAttributes [in]
 
 A pointer to a structure already initialized with 
-      <a href="Http://go.microsoft.com/fwlink/p/?linkid=85316">InitializeObjectAttributes</a>. 
+      <b>InitializeObjectAttributes</b>. 
       Members of this structure for a file object include the following.
 
 <table>

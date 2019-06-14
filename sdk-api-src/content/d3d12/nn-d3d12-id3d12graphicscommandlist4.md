@@ -54,7 +54,7 @@ Encapsulates a list of graphics commands for rendering, extending the interface 
 
 ## -inheritance
 
-The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
+The <b xmlns:loc="http://microsoft.com/wdcml/l10n">ID3D12GraphicsCommandList4</b> interface inherits from <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>. <b>ID3D12GraphicsCommandList4</b> also has these types of members:
 <ul>
 <li><a href="https://docs.microsoft.com/">Methods</a></li>
 </ul>
@@ -69,7 +69,7 @@ The <b>ID3D12GraphicsCommandList4</b> interface has these methods.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass">BeginRenderPass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-beginrenderpass">BeginRenderPass</a>
 </td>
 <td align="left" width="63%">
 Marks the beginning of a render pass by binding a set of output resources for the duration of the render pass. These bindings are to one or more render target views (RTVs), and/or to a depth stencil view (DSV).
@@ -108,13 +108,13 @@ Launch the threads of a ray generation shader.
 <a href="https://msdn.microsoft.com/en-us/library/Mt847464(v=VS.85).aspx">EmitRaytracingAccelerationStructurePostbuildInfo</a>
 </td>
 <td align="left" width="63%">
-Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
+Emits post-build properties for a set of acceleration structures.  This enables applications to know the output resource requirements for performing acceleration structure operations via <a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-copyraytracingaccelerationstructure">ID3D12GraphicsCommandList4::CopyRaytracingAccelerationStructure</a>.
 
 </td>
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-endrenderpass">EndRenderPass</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-endrenderpass">EndRenderPass</a>
 </td>
 <td align="left" width="63%">
 Marks the ending of a render pass.
@@ -132,7 +132,7 @@ Records the execution (or invocation) of the specified meta command into a graph
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand">InitializeMetaCommand</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-initializemetacommand">InitializeMetaCommand</a>
 </td>
 <td align="left" width="63%">
 Initializes the specified meta command.
@@ -141,7 +141,7 @@ Initializes the specified meta command.
 </tr>
 <tr data="declared;">
 <td align="left" width="37%">
-<a href="/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-setpipelinestate1">SetPipelineState1</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nf-d3d12-id3d12graphicscommandlist4-setpipelinestate1">SetPipelineState1</a>
 </td>
 <td align="left" width="63%">
 Sets a state object on the command list. 
@@ -156,7 +156,7 @@ Sets a state object on the command list.
 
 
 
-<a href="/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
+<a href="https://docs.microsoft.com/windows/desktop/api/d3d12/nn-d3d12-id3d12graphicscommandlist3">ID3D12GraphicsCommandList3</a>
  
 
  

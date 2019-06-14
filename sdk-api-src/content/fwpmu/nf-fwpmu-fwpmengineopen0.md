@@ -224,7 +224,7 @@ else
 
 
 
-<a href="http://go.microsoft.com/fwlink/p/?linkid=98333">Kernel-Mode FwpmEngineOpen0</a>
+[Kernel-Mode FwpmEngineOpen0](nf-fwpmu-fwpmengineopen0.md)
 
 
 

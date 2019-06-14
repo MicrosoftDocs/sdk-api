@@ -60,7 +60,7 @@ A generic method for getting BITS job properties.
 
 ### -param PropertyId [in]
 
-The ID of the property that is being obtained specified as a <a href="/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enum value.
+The ID of the property that is being obtained specified as a <a href="https://docs.microsoft.com/windows/desktop/api/bits5_0/ne-bits5_0-bits_job_property_id">BITS_JOB_PROPERTY_ID</a> enum value.
 
 
 ### -param PropertyValue [out]

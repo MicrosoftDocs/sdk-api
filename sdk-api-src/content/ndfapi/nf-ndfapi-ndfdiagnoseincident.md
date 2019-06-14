@@ -77,7 +77,7 @@ Type: <b><a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-nda
 
 A collection of <a href="https://docs.microsoft.com/windows/desktop/api/ndattrib/ns-ndattrib-tagrootcauseinfo">RootCauseInfo</a> structures that contain a detailed description of the root cause. If diagnosis succeeds, this parameter contains both the leaf root causes identified in the diagnosis session and any non-leaf root causes that have an available repair. If diagnosis does not succeed, the contents of this parameter should be ignored.
 
-Memory allocated to these structures should later be freed.  For an example of how to do this, see the <a href="http://go.microsoft.com/fwlink/p/?linkid=158047">Microsoft Windows Network Diagnostics Samples</a>.
+Memory allocated to these structures should later be freed.  For an example of how to do this, see the Microsoft Windows Network Diagnostics Samples.
 
 
 ### -param dwWait

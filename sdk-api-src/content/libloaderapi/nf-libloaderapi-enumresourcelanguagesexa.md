@@ -82,7 +82,7 @@ If this parameter is <b>NULL</b>, it is equivalent to passing in a handle to the
 
 Type: <b>LPCTSTR</b>
 
-The type of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="winui._win32_Resource_Types">Resource Types</a>. For more 
+The type of the resource for which the language is being enumerated. Alternately, rather than a pointer, this parameter can be <a href="https://msdn.microsoft.com/761df981-776f-43ca-9cc9-bb82a49f66e6">MAKEINTRESOURCE</a>(ID), where ID is an integer value representing a predefined resource type. For a list of predefined resource types, see <a href="https://docs.microsoft.com/windows/desktop/menurc/resource-types">Resource Types</a>. For more 
 
 information, see the Remarks section below.
 
@@ -216,7 +216,7 @@ The enumeration never includes duplicates: if resources for a particular languag
 
 #### Examples
 
-For an example, see <a href="using_resources.htm">Creating a Resource List</a>.
+For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Creating a Resource List</a>.
 
 <div class="code"></div>
 

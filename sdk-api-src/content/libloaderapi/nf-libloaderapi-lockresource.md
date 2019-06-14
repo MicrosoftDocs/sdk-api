@@ -100,7 +100,7 @@ used to lock a global memory block allocated by <a href="https://msdn.microsoft.
 
 #### Examples
 
-For an example, see <a href="using_resources.htm">Updating Resources</a>.
+For an example, see <a href="https://docs.microsoft.com/windows-hardware/drivers/wdf/creating-a-resource-requirements-list">Updating Resources</a>.
 
 <div class="code"></div>
 
